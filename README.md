@@ -1,13 +1,13 @@
-# Sample Hardhat Project
+TO get this running
+First run 
+npx hardhat compile
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Next npx hardhat test
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
 npx hardhat run scripts/deploy.js
-```
+
+In order to deploy the smart contract on the testnet, run 
+npx hardhat run scripts/deploy.js --network goerli
+
+You will then receive the smart contract address that is to be used in the front end code
+(Or you could use the existing address that will show you the status of my contract that is ongoing on the testnet
