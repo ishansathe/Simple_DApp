@@ -1,4 +1,4 @@
-.App {
+.Hello {
   text-align: center;
 }
 
@@ -23,6 +23,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+p{
+  font-size: 16px;
+  line-height: 24px;
+  /* Here, the line height is 16 pixels of the text + 8 pixels = 24 pixels 
+  As you can see in the rendered output */
+  margin-bottom: 8px;
+  /* You can see that the extra 8 pixels of space are added to the text as well below 
+  But this is applicable only between 2 different paragraphs (or p tags)
+  I have not tested between lines */
+}
+
 
 .App-link {
   color: #61dafb;
